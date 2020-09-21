@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive navbar with flexbox</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="menu-area">
+      <ul>
+        <li><a href="">home</a></li>
+        <li><a href="">about</a></li>
+        <li>
+          <a href="">services</a>
+          <ul class="menu-one">
+            <li><a href="">services 1</a></li>
+            <li><a href="">services 2</a></li>
+            <li>
+              <a href="">services 3</a>
+              <ul class="menu-two">
+                <li><a href="">services 1</a></li>
+                <li><a href="">services 2</a></li>
+                <li><a href="">services 3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="">team</a></li>
+        <li><a href="">contacts</a></li>
+      </ul>
+    </div>
+    <div class="banner-area">
+      <h1>Welcome Here</h1>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./libs/jquery.ripples-min.js"></script>
+    <script>
+              $('.banner-area').ripples({
+                    dropRadius: 10,
+                    perturbance: 0.03,
+       
+      });
+    </script>
+  </body>
+</html>

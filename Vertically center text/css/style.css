@@ -1,0 +1,34 @@
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.wrapper{
+    width: 1200px;
+    text-align: center;
+    position: relative;
+    margin: 2% auto;
+}
+.text-area{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-area h1{
+    text-shadow: 1px 1px 2px black;
+    font-family: Audiowide;
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+}
+.text-area h2{
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+    font-size: 30px;
+    margin: 0;
+}
